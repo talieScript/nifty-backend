@@ -1,0 +1,10 @@
+{
+  "connection": "default",
+  "collectionName": "components_pictures_siders",
+  "info": {
+    "name": "Sider",
+    "icon": "vr-cardboard"
+  },
+  "options": {},
+  "attributes": {}
+}

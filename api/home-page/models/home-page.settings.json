@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pictures.pictures"
+    },
+    "Intro": {
+      "type": "richtext"
+    }
+  }
+}

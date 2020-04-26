@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "artist_pages",
+  "info": {
+    "name": "Artist Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Mug_Shot": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

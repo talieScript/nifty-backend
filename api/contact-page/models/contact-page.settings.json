@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "contact_pages",
+  "info": {
+    "name": "Contact Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Picture": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "openTimes": {
+      "type": "string"
+    }
+  }
+}

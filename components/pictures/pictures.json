@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_pictures_pictures",
+  "info": {
+    "name": "Pictures",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "pictures": {
+      "collection": "pictures"
+    }
+  }
+}
