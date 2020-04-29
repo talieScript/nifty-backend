@@ -17,8 +17,8 @@
       "type": "text"
     },
     "pictures": {
-      "collection": "pictures",
-      "via": "collection"
+      "via": "collection",
+      "collection": "pictures"
     }
   }
 }

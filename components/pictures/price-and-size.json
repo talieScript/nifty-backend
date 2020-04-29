@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_pictures_price_and_sizes",
+  "info": {
+    "name": "Price&Size",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "price_and_sizes": {
+      "collection": "price-and-size"
+    }
+  }
+}

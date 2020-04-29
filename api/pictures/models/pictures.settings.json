@@ -20,8 +20,21 @@
       "required": false
     },
     "collection": {
-      "via": "pictures",
-      "model": "collection"
+      "model": "collection",
+      "via": "pictures"
+    },
+    "Format": {
+      "type": "enumeration",
+      "enum": [
+        "Square",
+        "Portrait",
+        "Landscape"
+      ]
+    },
+    "PriceSize": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pictures.price-and-size"
     }
   }
 }

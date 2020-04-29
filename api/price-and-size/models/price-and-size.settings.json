@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "price_and_sizes",
+  "info": {
+    "name": "Price And Size"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Price": {
+      "type": "decimal"
+    },
+    "FrameSize": {
+      "type": "string"
+    },
+    "ImageSize": {
+      "type": "string"
+    }
+  }
+}
