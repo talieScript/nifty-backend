@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/picture-description",
+      "handler": "picture-description.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/picture-description",
+      "handler": "picture-description.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/picture-description",
+      "handler": "picture-description.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

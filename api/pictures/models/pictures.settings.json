@@ -23,14 +23,6 @@
       "model": "collection",
       "via": "pictures"
     },
-    "Format": {
-      "type": "enumeration",
-      "enum": [
-        "Square",
-        "Portrait",
-        "Landscape"
-      ]
-    },
     "PriceSize": {
       "type": "component",
       "repeatable": false,

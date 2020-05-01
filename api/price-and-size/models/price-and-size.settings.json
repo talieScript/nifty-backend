@@ -15,9 +15,6 @@
     },
     "FrameSize": {
       "type": "string"
-    },
-    "ImageSize": {
-      "type": "string"
     }
   }
 }
