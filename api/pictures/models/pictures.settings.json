@@ -19,14 +19,13 @@
       "plugin": "upload",
       "required": false
     },
-    "collection": {
-      "model": "collection",
-      "via": "pictures"
-    },
     "PriceSize": {
       "type": "component",
       "repeatable": false,
       "component": "pictures.price-and-size"
+    },
+    "collection": {
+      "model": "collection"
     }
   }
 }

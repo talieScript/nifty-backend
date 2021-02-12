@@ -15,10 +15,6 @@
     },
     "Description": {
       "type": "text"
-    },
-    "pictures": {
-      "via": "collection",
-      "collection": "pictures"
     }
   }
 }
